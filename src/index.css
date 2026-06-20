@@ -198,7 +198,6 @@ button, a { -webkit-tap-highlight-color: transparent; }
   line-height: .94;
   letter-spacing: -.047em;
 }
-.hero h1 span { color: var(--gold); }
 .hero-description {
   width: 100%;
   max-width: 620px;
@@ -704,9 +703,9 @@ button, a { -webkit-tap-highlight-color: transparent; }
   .hero h1 { margin-top: 35px; font-size: clamp(57px, 16vw, 72px); line-height: .92; }
   .hero-description { margin-top: 25px; }
   .hero-description p { max-width: 100%; font-size: 11px; line-height: 1.55; }
-  .hero-actions { width: 100%; display: grid; grid-template-columns: 1fr 1fr; }
+  .hero-actions { width: 100%; display: grid; grid-template-columns: 1fr; }
+  .hero-actions > * { width: 100%; }
   .button { min-height: 51px; padding: 0 13px; }
-  .button--dark { grid-column: 1 / -1; }
   .hero-stats { width: 100%; margin: 35px 0 28px; padding-top: 0; justify-content: space-between; gap: 14px; }
   .hero-stats strong { font-size: 28px; }
   .hero-stats span { font-size: 6px; letter-spacing: .11em; }
@@ -777,8 +776,8 @@ button, a { -webkit-tap-highlight-color: transparent; }
   .contact-inner { min-height: 0; padding: 85px 17px 50px; display: block; }
   .contact h2 { font-size: 57px; }
   .contact-copy > p { font-size: 11px; }
-  .contact-buttons { display: grid; grid-template-columns: 1fr 1fr; }
-  .contact-buttons .button--gold { grid-column: 1 / -1; }
+  .contact-buttons { display: grid; grid-template-columns: 1fr; }
+  .contact-buttons > * { width: 100%; }
   .contact-cards { margin-top: 55px; }
   .contact-cards > a { min-height: 108px; padding: 17px; }
   .contact-cards strong { font-size: 20px; }

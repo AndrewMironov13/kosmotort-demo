@@ -130,7 +130,7 @@ function Hero() {
       <AnimatedShaderHero />
       <div className="hero-copy hero-enter">
         <div className="pill">✦ ДЗЕРЖИНСК · АВТОРСКАЯ КОНДИТЕРСКАЯ</div>
-        <h1>Искусство,<br />воплощённое<br />в десертах<span>.</span></h1>
+        <h1>Искусство,<br />воплощённое<br />в десертах</h1>
         <div className="hero-description">
           <p>
             «Космоторт» — кондитерская в Дзержинске, где готовят торты на заказ,
@@ -183,7 +183,7 @@ function About() {
     <section className="about section" id="about">
       <div className="about-copy" data-reveal>
         <div className="section-kicker">О НАС</div>
-        <h2>Каждый торт —<br /><em>маленькая вселенная</em><br />вкуса.</h2>
+        <h2>Каждый торт —<br /><em>маленькая вселенная</em><br />вкуса</h2>
         <p>
           Расскажите нам о празднике, количестве гостей и пожеланиях по вкусу.
           Мы предложим подходящий формат — большой торт, бенто-торт или десерты
@@ -228,7 +228,7 @@ function Catalog() {
       <div className="catalog-heading" data-reveal>
         <div>
           <div className="section-kicker">КАТАЛОГ</div>
-          <h2>Категории, в каждой из<br />которых —<br /><em>своя история.</em></h2>
+          <h2>Категории, в каждой из<br />которых —<br /><em>своя история</em></h2>
         </div>
         <p>
           Выберите подходящий формат и расскажите нам о вашем поводе. Подберём
@@ -279,7 +279,7 @@ function Reviews() {
       <div className="reviews-heading section" data-reveal>
         <div>
           <div className="section-kicker">ОТЗЫВЫ</div>
-          <h2>Слова, которые<br /><em>согревают сердце.</em></h2>
+          <h2>Слова, которые<br /><em>согревают сердце</em></h2>
         </div>
         <a href={business.reviews} target="_blank" rel="noreferrer">
           Рейтинг 4,9 · 60 отзывов <ArrowUpRight size={17} />
